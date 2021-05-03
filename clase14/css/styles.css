@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: #e5e5e5;
+}
+
+#feed {
+	width: 500px;
+	background-color: #c5c5c5;
+}
+
+.tweet {
+	/*border: 1px solid red;*/
+	padding: 14px;
+}
+
+.likes {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
